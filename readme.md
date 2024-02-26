@@ -3,6 +3,9 @@
 #### What you'll need:
 
 - AWS account.
+  Sure, here is an example of Markdown code for embedding a YouTube video:
+
+[![Alt text](https://img.youtube.com/vi/HZKUqeg2jYk.jpg)](https://www.youtube.com/watch?v=HZKUqeg2jYk)
 
 ---
 
