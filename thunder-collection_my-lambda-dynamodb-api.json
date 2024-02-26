@@ -1,0 +1,85 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "my-lambda-dynamodb-api",
+    "dateExported": "2024-02-15T14:32:59.196Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "f6330aa7-48fa-48b8-b16a-2e9e99a6a185",
+            "colId": "1aea9a72-560b-4373-bdee-f9fd44af6a73",
+            "containerId": "",
+            "name": "read",
+            "url": "https://c9bq5bjko1.execute-api.us-west-2.amazonaws.com/dev/my-lambda-api",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-15T14:30:28.786Z",
+            "modified": "2024-02-15T14:30:28.786Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"operation\": \"read\",\n  \"payload\": {\n    \"Key\": {\n      \"id\": \"5678EFGH\"\n    }\n  }\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7dbec8f9-b0ca-4388-92dc-7c71679213c9",
+            "colId": "1aea9a72-560b-4373-bdee-f9fd44af6a73",
+            "containerId": "",
+            "name": "delete",
+            "url": "https://c9bq5bjko1.execute-api.us-west-2.amazonaws.com/dev/my-lambda-api",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-15T14:30:39.469Z",
+            "modified": "2024-02-15T14:30:39.469Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"operation\": \"delete\",\n  \"payload\": {\n    \"Key\": {\n      \"id\": \"5678EFGH\"\n    }\n  }\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "5b550fdf-1bde-4c69-86bc-7bd73b143b39",
+            "colId": "1aea9a72-560b-4373-bdee-f9fd44af6a73",
+            "containerId": "",
+            "name": "create",
+            "url": "https://c9bq5bjko1.execute-api.us-west-2.amazonaws.com/dev/my-lambda-api",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-02-15T14:30:55.147Z",
+            "modified": "2024-02-15T14:30:55.147Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n  \"operation\": \"create\",\r\n  \"payload\": {\r\n    \"Item\": {\r\n      \"id\": \"3456MNOP\",\r\n      \"name\": \"Headphones\",\r\n      \"price\": 149.99,\r\n      \"description\": \"Wireless headphones with noise-cancelling technology.\"\r\n    }\r\n  }\r\n}\r\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "2c84f664-5b60-404f-ad82-eb054e794408",
+            "colId": "1aea9a72-560b-4373-bdee-f9fd44af6a73",
+            "containerId": "",
+            "name": "update",
+            "url": "https://c9bq5bjko1.execute-api.us-west-2.amazonaws.com/dev/my-lambda-api",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2024-02-15T14:31:19.492Z",
+            "modified": "2024-02-15T14:31:19.492Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"operation\": \"update\",\n  \"payload\": {\n    \"Key\": {\n      \"id\": \"5678EFGH\"\n    },\n    \"AttributeUpdates\": {\n      \"price\": {\n        \"Value\": 512\n      },\n      \"description\": {\n        \"Value\": \"Updated High-performance smartphone with advanced features.\"\n      }\n    }\n  }\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
