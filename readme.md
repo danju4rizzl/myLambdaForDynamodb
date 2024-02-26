@@ -1,11 +1,13 @@
 ## Build Serverless API in 10 mins | 2024 AWS Tutorial
 
+If you want tp learn how to build a serverless API in just 10 minutes with this 2024 AWS tutorial! In this video, I demonstrate how to use Lambda, API Gateway, and DynamoDB to create a powerful API quickly and efficiently.  
+[Watch now and level up your AWS skills on Youtube ](https://www.youtube.com/watch?v=HZKUqeg2jYk)
+
+🚀 #AWS #Serverless #Tutorial
+
 #### What you'll need:
 
 - AWS account.
-  Sure, here is an example of Markdown code for embedding a YouTube video:
-
-[![Alt text](https://img.youtube.com/vi/HZKUqeg2jYk.jpg)](https://www.youtube.com/watch?v=HZKUqeg2jYk)
 
 ---
 
